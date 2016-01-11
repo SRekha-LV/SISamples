@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition name="createRulesData" extends="DefaultTemplate">
+	     <put-attribute name="body"	value="/WEB-INF/views/createRulesData.jsp"/>
+	</definition>
+	
+	<definition name="defSampleRules" extends="DefaultTemplate">
+	     <put-attribute name="body"	value="/WEB-INF/views/defSampleRules.jsp"/>
+	</definition>
+	
+	<definition name="displayCreatedRules" extends="DefaultTemplate">
+	     <put-attribute name="body"	value="/WEB-INF/views/displayCreatedRules.jsp"/>
+	</definition>
+	
+	<definition name="conditionDetails" extends="DefaultTemplate">
+	     <put-attribute name="body"	value="/WEB-INF/views/conditionDetails.jsp"/>
+	</definition>
+	
+	<definition name="actionDetails" extends="DefaultTemplate">
+	     <put-attribute name="body"	value="/WEB-INF/views/actionDetails.jsp"/>
+	</definition>
+	
+	<definition name="recipientDetails" extends="DefaultTemplate">
+	     <put-attribute name="body"	value="/WEB-INF/views/recipientDetails.jsp"/>
+	</definition>
+	
+	<definition name="communicationTypeList" extends="DefaultTemplate">
+	     <put-attribute name="body"	value="/WEB-INF/views/communicationTypeList.jsp"/>
+	</definition>
+	
+	<definition name="ruleTypeInfoDetails" extends="DefaultTemplate">
+	     <put-attribute name="body"	value="/WEB-INF/views/ruleTypeInfoDetails.jsp"/>
+	</definition>
+	
+	<definition name="definedRuleDetails" extends="DefaultTemplate">
+	     <put-attribute name="body"	value="/WEB-INF/views/definedRuleDetails.jsp"/>
+	</definition>
+	
+</tiles-definitions>
